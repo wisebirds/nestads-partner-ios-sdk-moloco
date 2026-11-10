@@ -7,8 +7,8 @@
 
 | 구성요소 | 버전 |
 |---|---|
-| NestAdsPartnerMoloco | `1.0.0` |
-| NestAdsPartnerCore (전이 의존) | `1.0.0` 이상 |
+| NestAdsPartnerMoloco | `1.0.1` |
+| NestAdsPartnerCore (전이 의존) | `1.2.0` 이상 |
 
 ## 설치 (Swift Package Manager)
 
@@ -24,7 +24,7 @@ https://github.com/wisebirds/nestads-partner-ios-sdk-moloco
 dependencies: [
     .package(
         url: "https://github.com/wisebirds/nestads-partner-ios-sdk-moloco",
-        from: "1.0.0"
+        from: "1.0.1"
     )
 ]
 ```

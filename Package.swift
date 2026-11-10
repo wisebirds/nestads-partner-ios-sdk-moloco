@@ -12,14 +12,14 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/wisebirds/nestads-partner-ios-sdk-core", from: "1.0.0"),
+    .package(url: "https://github.com/wisebirds/nestads-partner-ios-sdk-core", from: "1.2.0"),
     .package(url: "https://github.com/moloco/moloco-sdk-ios-spm.git", from: "4.8.1")
   ],
   targets: [
     .binaryTarget(
       name: "NestAdsPartnerMoloco",
-      url: "https://github.com/wisebirds/nestads-partner-ios-sdk-moloco/releases/download/1.0.0/NestAdsPartnerMoloco.xcframework.zip",
-      checksum: "e77e906629693cd76c77c240a1421b0b59558520d5fceaf77a80b6beb1fafdef"
+      url: "https://github.com/wisebirds/nestads-partner-ios-sdk-moloco/releases/download/1.0.1/NestAdsPartnerMoloco.xcframework.zip",
+      checksum: "fa6877b604985aed7b628eca77e5f8613ca453dd457e1810ad3fb63c4a2f3fbd"
     ),
     .target(
       name: "NestAdsPartnerMolocoWrapper",
